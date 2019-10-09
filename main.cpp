@@ -59,7 +59,8 @@ int main()
             }
 
             printf("<< Closing Child task [%d] \n\n", getpid());
-            exit(0);
+
+            exit(EXIT_SUCCESS);
 
 
         }
@@ -70,6 +71,6 @@ int main()
         wait(NULL);
 
     printf("< Finalizing parent [%d] \n\n", getpid());
-    exit(0);
+    exit(EXIT_SUCCESS);
 
 }
