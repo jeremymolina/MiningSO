@@ -1,8 +1,8 @@
 #include <iostream>
 #include <sys/resource.h>
 #include "rss.h"
-#include "maps.h"
 #include <unistd.h>
+#include <sys/wait.h>
 #define ERROR -1
 
 static int collectMemData() {
@@ -11,7 +11,7 @@ static int collectMemData() {
 
 
 static int collectCpuData() {
-    return getCurrentCpu();
+    return 1;
 }
 
 static int collectNetData() {
@@ -68,7 +68,7 @@ int main()
     }
 
     for(int i=0;i<4;i++)
-        wait(NULL);
+        wait(0);
 
     printf("< Finalizing parent [%d] \n\n", getpid());
     exit(EXIT_SUCCESS);

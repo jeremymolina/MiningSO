@@ -3,4 +3,4 @@ project(MiningSO)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(MiningSO main.cpp rss.h maps.h)
+add_executable(MiningSO main.cpp rss.h)
