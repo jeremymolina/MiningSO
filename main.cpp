@@ -70,5 +70,6 @@ int main()
         wait(NULL);
 
     printf("< Finalizing parent [%d] \n\n", getpid());
+    exit(0);
 
 }
