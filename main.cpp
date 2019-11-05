@@ -1,17 +1,18 @@
 #include <iostream>
 #include <sys/resource.h>
-#include "rss.h"
+#include "mem.h"
+#include "cpu.h"
 #include <unistd.h>
 #include <sys/wait.h>
 #define ERROR -1
 
 static int collectMemData() {
-    return getCurrentRSS()/1024;
+    return getMemUsage();
 }
 
 
 static int collectCpuData() {
-    return 1;
+    return getCpuUsage();
 }
 
 static int collectNetData() {
@@ -38,12 +39,12 @@ int main()
                 case 0:
 
                     printf(">> Running Child task [%d] PID=%ld  \n ", i, getpid());
-                    printf("<<< childMem: %u KiB, VS: %u KiB.\n", collectMemData());
+                    printf("<<< childMem: %u KB, VS: %u KB.\n", collectMemData());
                     break;
 
                 case 1:
                     printf(">> Running Child task [%d] PID=%ld  \n ", i, getpid());
-                    printf("<<< childCpu: %u.\n", collectCpuData());
+                    printf("<<< childCpu: %u B.\n", collectCpuData());
                     break;
 
                 case 2:
