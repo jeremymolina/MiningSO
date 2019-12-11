@@ -8,95 +8,89 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/jeremymolina/CLion/MiningSO/cmake-build-debug"/>
+				<Option working_dir="/Users/jeremy.mc/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/jeremymolina/CLion/MiningSO/cmake-build-debug"/>
+				<Option working_dir="/Users/jeremy.mc/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="MiningSO">
-				<Option output="/home/jeremymolina/CLion/MiningSO/cmake-build-debug/MiningSO" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jeremymolina/CLion/MiningSO/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
-					<Add directory="/usr/include/c++/8/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 MiningSO"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="MiningSO/fast">
-				<Option output="/home/jeremymolina/CLion/MiningSO/cmake-build-debug/MiningSO" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/jeremymolina/CLion/MiningSO/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/8"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
-					<Add directory="/usr/include/c++/8/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 MiningSO/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/jeremymolina/CLion/MiningSO/cmake-build-debug"/>
+				<Option working_dir="/Users/jeremy.mc/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/jeremymolina/CLion/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MiningSO">
+				<Option output="/Users/jeremy.mc/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/MiningSO" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jeremy.mc/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 MiningSO"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MiningSO/fast">
+				<Option output="/Users/jeremy.mc/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/MiningSO" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jeremy.mc/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 MiningSO/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jeremy.mc/Library/Mobile\ Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/jeremymolina/CLion/MiningSO/cpu.h">
+		<Unit filename="/Users/jeremy.mc/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/MiningSO/cpu.h">
 			<Option target="MiningSO"/>
 		</Unit>
-		<Unit filename="/home/jeremymolina/CLion/MiningSO/main.cpp">
+		<Unit filename="/Users/jeremy.mc/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/MiningSO/main.cpp">
 			<Option target="MiningSO"/>
 		</Unit>
-		<Unit filename="/home/jeremymolina/CLion/MiningSO/mem.h">
+		<Unit filename="/Users/jeremy.mc/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/MiningSO/mem.h">
 			<Option target="MiningSO"/>
 		</Unit>
-		<Unit filename="/home/jeremymolina/CLion/MiningSO/rss.h">
+		<Unit filename="/Users/jeremy.mc/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/MiningSO/rss.h">
 			<Option target="MiningSO"/>
 		</Unit>
-		<Unit filename="/home/jeremymolina/CLion/MiningSO/CMakeLists.txt">
+		<Unit filename="/Users/jeremy.mc/Library/Mobile Documents/com~apple~CloudDocs/CLionProjects/MiningSO/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
